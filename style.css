@@ -136,7 +136,7 @@ body {
 
       .col-1,.col-2{
 
-        height : 400px;
+        height : 500px;
 
       }
 
@@ -152,13 +152,16 @@ body {
 
     
 
-   @media (min-width :1024px) {
+   @media (min-width :900px) {
 
      .row , .banner{
 
        height:100vh;
 
      }
+     h1 {
+           font-size : 4rem; 
+        }
 
    }
 
